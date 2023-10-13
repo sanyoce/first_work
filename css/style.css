@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'TT hoves';
+}
+
+body{
+    width: 1280px;
+    margin: 0px 121px;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+}
+
+body section:nth-child(1){
+    background-image: url(/img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: 827px;
+    background-position-y: 82px;
+}
+
+
+body section:first-child img{
+    margin-bottom: 85px;
+}
+
+.jopa{
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+
+body section:first-child h1{
+    font-size: calc(4.1vw + 26px);
+    font-family: 'Chava';
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+body section:first-child p{
+    font-size: 27px;
+    line-height: 140%;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.baton{
+    display: flex;
+    gap: 30px;
+}
+
+.baton div:first-child{
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 20px 0px;
+    border-radius: 12px;
+    background-color: #6E3ABA;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.baton div:last-child{
+    flex-basis: 328px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding: 20px 0px;
+    border-radius: 12px;
+    border: 1px #6E3ABA solid   ;
+    text-align: center;
+    color: #6E3ABA;
+    flex-wrap : wrap calc();
+    
+}
+
+/* section 2 */
+
+section:nth-child(2){
+    height: 1252px;
+    margin-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* section:nth-child(2) h1{
+    font-size: 58px;
+} */
+
+
+.emoji{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 120px;
+   margin-top: 70px;
+   margin-left: 100px;
+}
+
+.emojiinfo{
+    flex-direction: column;
+}
+
+.emojiinfo img{
+    width: 238px;
+    height: 238px;
+}
+
+.emojiinfo h1{
+    /* size: 10px; */
+    margin-top: 20px;
+    
+}
+
+.emojiinfo p{
+    width: 450px;
+    margin-top: 20px;
+    font-size: 27px;
+    line-height: 140%;
+}
+
+
+section:nth-child(3){
+    margin: 300px 0px 100px -121px;
+    height: 623px;
+    width: 1519px;
+    background-color: #6E3ABA;
+    text-align: center;
+}
+
+.skidon{
+    margin-top: 80px;
+    font-size: 52px;
+    color: white;
+}
+
+.chasi{
+    margin-top: 57px;
+    display: flex;
+    gap: 90px;
+    padding-left: 330px;
+    font-family: "Chava";
+    font-size: 174px;
+}
+
+.butski{
+    margin-left: 600px;
+    margin-top: 57px;
+    width: 328px;
+    padding: 20px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+
