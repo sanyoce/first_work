@@ -16,6 +16,7 @@ section{
 
 section:nth-child(1) img{
     margin-top: 37px;
+    width: calc(8.8vw + 182px);
 }
 
 .kursinfo{
@@ -29,6 +30,7 @@ section:nth-child(1) h1{
     margin-top: 76px;
     font-family: "Chava";
     font-size: 80px;
+    width: calc(49.1vw + 149px);
 }
 
 section:nth-child(1) p{
@@ -64,6 +66,8 @@ section:nth-child(1) p{
     border: 1px solid #6E3ABA;
     border-radius: 12px;
     justify-content: center;
+    background-color: white;
+    
 }
 
 /* 1 страница закончена */
@@ -90,4 +94,41 @@ section:nth-child(1) p{
 
 .memoji h3{
     font-size: 27px;
+}
+
+/* 2 СТРАНИЦА ЗАКОНЧЕНА */
+
+section:nth-child(3){
+    height: 623px;
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(3) h3{
+    font-size: 52px;
+    margin-top: 70px;
+    color: white;
+}
+
+.timer{
+    display: flex;
+    font-size: 174px;
+    margin-top: 37px;
+    gap: calc(5.3vw + 12px);
+}
+
+.timer div{
+    font-family: "Chava";
+}
+
+.defoltbutthree{
+    margin-top: 50px;
+    display: flex;
+    width: 328px;
+    padding: 20px 0px;
+    background-color: white;
+    border-radius: 12px;
+    justify-content: center;
 }
